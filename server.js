@@ -69,5 +69,5 @@ app.delete('/tasks/:id', (req, res) => {
 })
 
 var serv = app.listen(app.get('port'), () => {
-  console.log(`You're now listening at ${serv.address().address} ${serv.address().port}`);
+  console.log(`You're now listening at ${serv.address().address} ${serv.address().port}, friend`);
 })
